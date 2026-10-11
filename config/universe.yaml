@@ -1,0 +1,28 @@
+tickers:
+  AAPL: {name: Apple Inc., aliases: [Apple, "iPhone maker", Cupertino, iPhone, Mac], sector: Technology, sub_industry: Consumer Electronics}
+  MSFT: {name: Microsoft Corporation, aliases: [Microsoft, Redmond, Azure, Windows, Xbox], sector: Technology, sub_industry: Systems Software}
+  AMZN: {name: Amazon.com Inc., aliases: [Amazon, AWS, Amazon.com, Prime], sector: Consumer Discretionary, sub_industry: Internet Retail}
+  GOOGL: {name: Alphabet Inc., aliases: [Alphabet, Google, YouTube, Waymo], sector: Communication Services, sub_industry: Interactive Media}
+  META: {name: Meta Platforms Inc., aliases: [Meta Platforms, Facebook, Instagram, WhatsApp, Meta], sector: Communication Services, sub_industry: Interactive Media}
+  NVDA: {name: NVIDIA Corporation, aliases: [NVIDIA, Nvidia, GeForce, CUDA, Jensen Huang], sector: Technology, sub_industry: Semiconductors}
+  TSLA: {name: Tesla Inc., aliases: [Tesla, Elon Musk, Model Y, Model 3], sector: Consumer Discretionary, sub_industry: Automobile Manufacturers}
+  JPM: {name: JPMorgan Chase & Co., aliases: [JPMorgan, JP Morgan, J.P. Morgan, Chase], sector: Financials, sub_industry: Diversified Banks}
+  BAC: {name: Bank of America Corporation, aliases: ["Bank of America", BofA, Merrill], sector: Financials, sub_industry: Diversified Banks}
+  GS: {name: Goldman Sachs Group Inc., aliases: ["Goldman Sachs", Goldman], sector: Financials, sub_industry: Investment Banking}
+  XOM: {name: Exxon Mobil Corporation, aliases: [Exxon, ExxonMobil, "Exxon Mobil"], sector: Energy, sub_industry: Integrated Oil & Gas}
+  CVX: {name: Chevron Corporation, aliases: [Chevron], sector: Energy, sub_industry: Integrated Oil & Gas}
+  JNJ: {name: Johnson & Johnson, aliases: ["Johnson & Johnson", JNJ, Janssen], sector: Health Care, sub_industry: Pharmaceuticals}
+  PFE: {name: Pfizer Inc., aliases: [Pfizer, Comirnaty], sector: Health Care, sub_industry: Pharmaceuticals}
+  WMT: {name: Walmart Inc., aliases: [Walmart, Walmart.com, Sam's Club], sector: Consumer Staples, sub_industry: Hypermarkets}
+macro_tags:
+  geopolitical: ["strait of hormuz", hormuz, sanctions, blockade, conflict, military, geopolitical]
+  rates: ["interest rate", rates, federal reserve, fed, yield, yields]
+  inflation: [inflation, cpi, prices]
+  oil_energy: [oil, crude, refinery, energy, opec]
+  regulation: [regulator, regulatory, antitrust, fine, compliance, "sec "]
+  cyber: [cyber, ransomware, breach, hack, outage]
+  credit: [default, downgrade, credit spread, bankruptcy, delinquency]
+macro_sector_mapping:
+  oil_energy: [XOM, CVX]
+  rates: [JPM, BAC, GS]
+  credit: [JPM, BAC, GS]

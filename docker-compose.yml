@@ -1,0 +1,10 @@
+services:
+  risk-engine:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      RISK_ENGINE_MODE: replay
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports

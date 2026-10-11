@@ -1,0 +1,50 @@
+{"document_id": "37c1351c-d75a-52e6-87fb-d0a54c462765", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["AAPL"], "is_synthetic": true}
+{"document_id": "4d07c49f-41d5-5d1f-affc-3e4cc6fbc05f", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["MSFT"], "is_synthetic": true}
+{"document_id": "ac77b82f-7ad0-5785-b5c4-306501867809", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["AMZN"], "is_synthetic": true}
+{"document_id": "9ee4d71a-8046-55bb-a087-edee98bbf319", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["GOOGL"], "is_synthetic": true}
+{"document_id": "accab826-9db2-5754-8a3d-c932af84d560", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["META"], "is_synthetic": true}
+{"document_id": "46013160-321f-52df-8226-8567ffb30494", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["NVDA"], "is_synthetic": true}
+{"document_id": "09628770-0031-5898-8448-16a31085d5a4", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["TSLA"], "is_synthetic": true}
+{"document_id": "fcd6eccf-4de0-583d-8aa7-8a4cff006492", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["JPM"], "is_synthetic": true}
+{"document_id": "d55dfedb-679a-52a5-be6e-8ee5a25f741d", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["BAC"], "is_synthetic": true}
+{"document_id": "42acdd9d-6e21-5bc7-805b-c2b7330629df", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["GS"], "is_synthetic": true}
+{"document_id": "78cf7163-c234-57f5-80b6-ae7eb93c1eb8", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["XOM"], "is_synthetic": true}
+{"document_id": "ac9f4dcc-6c2a-5ec2-8848-86e589fdb799", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["CVX"], "is_synthetic": true}
+{"document_id": "500e4b03-d2dc-59bd-aad8-6a78ffbf8816", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["JNJ"], "is_synthetic": true}
+{"document_id": "e1b0fc04-7ff6-534c-b759-58dca052814d", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["PFE"], "is_synthetic": true}
+{"document_id": "c9b8f827-07d3-599a-897d-2d10ff0d2ee2", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["WMT"], "is_synthetic": true}
+{"document_id": "7de40743-cc8d-5bcd-ad04-bf3f690b7647", "event_type": "Macroeconomic", "expected_sentiment": "neu", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "ec22c1d8-b26e-5f33-8452-91f8e276f26f", "event_type": "Regulatory", "expected_sentiment": "neu", "expected_tickers": ["META"], "is_synthetic": true}
+{"document_id": "f1aec5ef-b0d1-5fe5-a639-459492c433ba", "event_type": "Cybersecurity/Operational", "expected_sentiment": "neg", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "a21449d1-e94f-5f73-be60-4fb12d1e8f51", "event_type": "Merger/Acquisition", "expected_sentiment": "neu", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "ece61633-8cc3-5f03-b84a-ff061006de7b", "event_type": "Credit Event", "expected_sentiment": "neg", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "77ffede2-ea01-5fab-bde4-4aea77deb143", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["CVX", "XOM"], "is_synthetic": true}
+{"document_id": "6de095d2-8299-5f40-9d55-92b97057415f", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["CVX", "XOM"], "is_synthetic": true}
+{"document_id": "28201096-8155-5b19-a371-403643546fad", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["CVX", "XOM"], "is_synthetic": true}
+{"document_id": "d6c961ca-fd21-5651-a5d9-91bd82155b64", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["BAC", "CVX", "JPM", "XOM"], "is_synthetic": true}
+{"document_id": "a10d4927-e1e6-55ba-9b3f-d7d456f1d8a7", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["BAC", "CVX", "JPM", "XOM"], "is_synthetic": true}
+{"document_id": "852a3c60-3017-5f99-9db7-116c95a43f07", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["AMZN", "TSLA", "WMT"], "is_synthetic": true}
+{"document_id": "db9ab91e-3318-5138-a7a4-445e18ed5bcb", "event_type": "Credit Event", "expected_sentiment": "neg", "expected_tickers": ["BAC", "GS", "JPM"], "is_synthetic": true}
+{"document_id": "5093dd28-8158-593a-8c65-bdbd1fdc34e0", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["BAC", "CVX", "JPM", "XOM"], "is_synthetic": true}
+{"document_id": "b173a582-9e19-5a3b-9701-128fef2a65f1", "event_type": "Geopolitical", "expected_sentiment": "neg", "expected_tickers": ["CVX", "XOM"], "is_synthetic": true}
+{"document_id": "cfcf6d28-9278-564e-abaf-edbd5e2f13e1", "event_type": "Macroeconomic", "expected_sentiment": "neu", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "64a8383e-0ab5-5a16-8615-ec42e56194b0", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": [], "is_synthetic": true}
+{"document_id": "bf0c7703-460b-57ac-9baa-f8d5fe4016cd", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["MSFT"], "is_synthetic": true}
+{"document_id": "0dbc2b95-1256-569b-9aa2-df52a8860b20", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["AMZN"], "is_synthetic": true}
+{"document_id": "4400ac44-e729-59f1-abe0-b7a6bfbe81c6", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["GOOGL"], "is_synthetic": true}
+{"document_id": "d2b7e4a8-7d89-5def-907d-1addec4a7225", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["META"], "is_synthetic": true}
+{"document_id": "63f29a98-3c9d-54f2-aebf-31da331132fb", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["NVDA"], "is_synthetic": true}
+{"document_id": "5735a36f-9768-5063-bf5f-f2fcdff6b32f", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["TSLA"], "is_synthetic": true}
+{"document_id": "70a4b3be-d65b-5fc0-836b-b88b9434de8b", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["JPM"], "is_synthetic": true}
+{"document_id": "2d1b5f1e-7997-5ca1-b862-914c62112dae", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["BAC"], "is_synthetic": true}
+{"document_id": "f44117db-fd64-57d7-9c2f-3c63e4feea06", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["GS"], "is_synthetic": true}
+{"document_id": "4365f12f-cc8a-51df-b887-e46e58b6b3d3", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["XOM"], "is_synthetic": true}
+{"document_id": "f5ff766d-e19d-5477-8152-5b2a925fe460", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["CVX"], "is_synthetic": true}
+{"document_id": "d5612145-fa85-5bb5-95b9-7b52f66c8fb3", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["JNJ"], "is_synthetic": true}
+{"document_id": "745eb91e-e196-5e22-8cb6-1dae73b92a8a", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["PFE"], "is_synthetic": true}
+{"document_id": "42ab41f9-323a-5452-a099-3e309d43d822", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["WMT"], "is_synthetic": true}
+{"document_id": "ee033b52-854d-50c3-9739-062be008eb40", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["AAPL"], "is_synthetic": true}
+{"document_id": "b97ae228-deec-5268-9796-3284c4442060", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["MSFT"], "is_synthetic": true}
+{"document_id": "a1fa3b0e-fa37-5a8d-84f9-987bb3e3da54", "event_type": "Other", "expected_sentiment": "neu", "expected_tickers": ["AMZN"], "is_synthetic": true}
+{"document_id": "fea16eb0-6e26-5a47-8e50-dbd11c042fe8", "event_type": "Earnings", "expected_sentiment": "pos", "expected_tickers": ["GOOGL"], "is_synthetic": true}
+{"document_id": "73674c65-a2ef-55b2-873b-8df6855c59da", "event_type": "Product Launch", "expected_sentiment": "pos", "expected_tickers": ["META"], "is_synthetic": true}

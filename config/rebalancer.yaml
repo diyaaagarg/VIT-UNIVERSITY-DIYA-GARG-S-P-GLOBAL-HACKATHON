@@ -1,0 +1,9 @@
+lookback_hours: 24
+half_life_hours: 8
+tilt_k: 0.35
+min_confidence: 0.5
+min_weight: 0.02
+max_weight: 0.12
+max_turnover: 0.25
+backtest_days: 90
+seed: 42

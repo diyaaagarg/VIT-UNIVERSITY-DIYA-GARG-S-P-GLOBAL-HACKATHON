@@ -1,0 +1,8 @@
+auto_trigger_impact: 7.0
+scenario_shocks:
+  Geopolitical: {equity: -0.10, oil: 0.25, spread_bps: 150, fx: -0.08, rate_bps: 25, pd_multiplier: 1.30, lgd_uplift: 0.05}
+  Macroeconomic: {equity: -0.06, oil: -0.04, spread_bps: 75, fx: -0.03, rate_bps: 200, pd_multiplier: 1.15, lgd_uplift: 0.02}
+  Credit Event: {equity: -0.08, oil: -0.02, spread_bps: 200, fx: -0.04, rate_bps: 50, pd_multiplier: 1.60, lgd_uplift: 0.10}
+  Regulatory: {equity: -0.04, oil: 0.0, spread_bps: 40, fx: -0.01, rate_bps: 0, pd_multiplier: 1.05, lgd_uplift: 0.01}
+  Cybersecurity/Operational: {equity: -0.07, oil: 0.0, spread_bps: 60, fx: -0.01, rate_bps: 0, pd_multiplier: 1.10, lgd_uplift: 0.02}
+  Other: {equity: -0.02, oil: 0.0, spread_bps: 25, fx: -0.01, rate_bps: 0, pd_multiplier: 1.02, lgd_uplift: 0.0}

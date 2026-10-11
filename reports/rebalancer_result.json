@@ -1,0 +1,679 @@
+{
+  "as_of": "2026-01-15T19:15:00+00:00",
+  "base_weights": {
+    "AAPL": 0.06666666666666667,
+    "MSFT": 0.06666666666666667,
+    "AMZN": 0.06666666666666667,
+    "GOOGL": 0.06666666666666667,
+    "META": 0.06666666666666667,
+    "NVDA": 0.06666666666666667,
+    "TSLA": 0.06666666666666667,
+    "JPM": 0.06666666666666667,
+    "BAC": 0.06666666666666667,
+    "GS": 0.06666666666666667,
+    "XOM": 0.06666666666666667,
+    "CVX": 0.06666666666666667,
+    "JNJ": 0.06666666666666667,
+    "PFE": 0.06666666666666667,
+    "WMT": 0.06666666666666667
+  },
+  "target_weights": {
+    "AAPL": 0.07638575570200697,
+    "MSFT": 0.07162407647830164,
+    "AMZN": 0.059561005884551266,
+    "GOOGL": 0.07609608672894373,
+    "META": 0.07086426926124467,
+    "NVDA": 0.06674175085952787,
+    "TSLA": 0.07325385498631218,
+    "JPM": 0.06279821527405613,
+    "BAC": 0.05532203408354438,
+    "GS": 0.07141484427916804,
+    "XOM": 0.05793056044499555,
+    "CVX": 0.04997702117116145,
+    "JNJ": 0.07648528062368284,
+    "PFE": 0.07198423833795198,
+    "WMT": 0.059561005884551266
+  },
+  "smoothed_sentiment": {
+    "GS": 0.20005012323976445,
+    "JPM": -0.16881853389842252,
+    "TSLA": 0.2787762015709267,
+    "META": 0.17648059652638953,
+    "GOOGL": 0.40044909772997567,
+    "MSFT": 0.20900712954451506,
+    "AAPL": 0.4128495161586955,
+    "PFE": 0.2244252729324675,
+    "JNJ": 0.41711007143948886,
+    "XOM": -0.3771976226514101,
+    "CVX": -0.7176801187289944,
+    "BAC": -0.48886584179920173,
+    "AMZN": -0.3074,
+    "WMT": -0.3074
+  },
+  "turnover": 0.05485,
+  "constraints": {
+    "min_weight": 0.02,
+    "max_weight": 0.12,
+    "max_turnover": 0.25,
+    "min_confidence": 0.5
+  },
+  "triggers": [
+    {
+      "ticker": "AAPL",
+      "weight_change": 0.0097,
+      "signals": [
+        "33681205-9e95-44c5-9cc2-2a17375c0ba0",
+        "f5102066-b1b9-4f7a-ae5b-1646e6bd052e",
+        "cfb9c4c9-c6ea-42a7-bff1-84cc709ffc2b",
+        "ef388f2f-150b-4ac9-9b95-70f77108dd09",
+        "f39da32d-5732-430b-9bd5-3e4d35a37bc0"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "weight_change": 0.005,
+      "signals": [
+        "d7893651-91e0-4122-b3b7-dde8f2972892",
+        "67fadca2-d5ac-4ca3-bed2-9df73304dff9",
+        "c9a1acca-e9d3-4ee9-8941-454a1e90b065",
+        "81586d40-0099-45c2-82d6-a05d728d944b",
+        "3830c3e9-5615-40fe-8749-c5bd0c795015"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "weight_change": -0.0071,
+      "signals": [
+        "bab69dc6-c979-491d-91e4-ee89b7f16b06",
+        "5a945e7a-8846-4d09-905f-f5ce4d709b22",
+        "09246447-fb8b-45e1-8171-441cc68f2bc9",
+        "b5bcb64b-8b3d-4800-ae05-083ef66e2239",
+        "a588bc84-1100-40a3-a434-2b05da495ad3"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "weight_change": 0.0094,
+      "signals": [
+        "74e7d90b-ca52-4abe-a339-fecc00583d89",
+        "8cf97eba-5203-41e3-a741-b6c0cf016ee6",
+        "7bd88133-b7ea-417d-a86f-e4b31e115304",
+        "54a01aea-34d1-4baf-9b2f-334976b6aa13",
+        "c79c2190-d762-4274-bb12-f9587bcdfab5"
+      ]
+    },
+    {
+      "ticker": "META",
+      "weight_change": 0.0042,
+      "signals": [
+        "61493d2a-6455-4a91-ab4f-d9f01e7ef04a",
+        "b368aae1-49f6-47a0-8915-c4ec55c0916d",
+        "d28eb3cc-f8ff-49f2-a74c-ca954a8a2d45",
+        "992281ce-b8b0-48f6-90de-d11df8c7f48d",
+        "b477dbf2-8c02-4bf3-b9ed-01fa2331f985"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "weight_change": 0.0066,
+      "signals": [
+        "23cb2c18-98ad-46c9-8e4f-51279bda5b67",
+        "e654be5a-8d5d-4f58-96dd-0e33fd63e26f",
+        "7762d5f1-8363-4bbd-bd22-0dcf13a792ef",
+        "144f0e06-7813-431c-adca-e53b8b92e306",
+        "faf86f11-9f3d-48f8-955f-0bb561b97f40"
+      ]
+    },
+    {
+      "ticker": "JPM",
+      "weight_change": -0.0039,
+      "signals": [
+        "440eda04-0fa1-4b91-9e10-7a82442adfa8",
+        "a17c48d0-7cfe-46a5-8a7b-97658a2a4974",
+        "39d3fd26-7b78-4d62-a9c3-e7f1a041eeee",
+        "c5f44fd5-b949-4ea9-b7f4-c750f0966e06",
+        "92f989f8-8780-4134-93c7-b8bd299259c2"
+      ]
+    },
+    {
+      "ticker": "BAC",
+      "weight_change": -0.0113,
+      "signals": [
+        "bbb06d56-bb03-48f2-b60e-b9e6e5a6ebe4",
+        "86c037b1-c697-42c2-ba34-9da51654284b",
+        "f90570e4-2844-4228-a866-509ea0aac4af",
+        "0de6cb94-c4b8-4653-b0c2-4d49c6ac2155",
+        "75a9fd38-20cc-4035-9a22-d5e273521ef9"
+      ]
+    },
+    {
+      "ticker": "GS",
+      "weight_change": 0.0047,
+      "signals": [
+        "8edeb6b0-f836-467a-942f-e7d1ab947456",
+        "bd37499d-3de6-4ce1-984c-741a3dda3fef",
+        "09463804-f495-4b41-9b99-adfff919970c",
+        "8fddfb8a-6dd7-4d08-9d9d-a887bf285d94",
+        "f1885ce6-cd79-4e99-b50d-6159e96ae741"
+      ]
+    },
+    {
+      "ticker": "XOM",
+      "weight_change": -0.0087,
+      "signals": [
+        "5346cb73-5ec1-46a1-8aaa-1231a4c1d0d6",
+        "d1cf1f93-97db-4832-9f3e-aa4464872fd8",
+        "5d8939c1-457f-487b-a506-fe665d56e532",
+        "9470a2b7-6b05-4726-8500-670c6f1908c8",
+        "94a8fd2f-8ffb-4499-bf45-7ae0ba03c287"
+      ]
+    },
+    {
+      "ticker": "CVX",
+      "weight_change": -0.0167,
+      "signals": [
+        "c7060e27-3a6e-4c5d-8c3a-22b75f1e65ae",
+        "63ef4250-6a8e-4c79-b7ec-fb653ba57c6e",
+        "d93f522a-23d2-4a84-a77a-0faf85232e2d",
+        "4c270387-0977-4991-b2be-410badf4ab36",
+        "8f3ceac9-c58f-4406-8936-4886374c9090"
+      ]
+    },
+    {
+      "ticker": "JNJ",
+      "weight_change": 0.0098,
+      "signals": [
+        "036a5b0e-024e-4725-927f-01cf23237633",
+        "e3efe90c-ba1e-4d48-9dd2-ee5b8f7c7d8a",
+        "8576ddeb-22f4-401d-b54c-5908a5f956a3",
+        "5df8fd4b-8431-455c-8f72-1e844737b49e",
+        "7a301bdd-0348-45ce-b64a-a05f60263c97"
+      ]
+    },
+    {
+      "ticker": "PFE",
+      "weight_change": 0.0053,
+      "signals": [
+        "67d88847-2595-4cf0-89af-e1f1b7ee4ac1",
+        "c95b896e-f645-428e-a419-7ed532f7d9a2",
+        "a26eb508-e6cb-4e63-989e-1542cf6f9277",
+        "e7fb808e-0ce8-4c76-b8ab-6dfe5ac759ba",
+        "20db893d-b9bd-4c62-aa42-9e946deae763"
+      ]
+    },
+    {
+      "ticker": "WMT",
+      "weight_change": -0.0071,
+      "signals": [
+        "e7705820-fd97-4e74-8c4e-bc497cf928e4",
+        "4c543c9b-e9e5-4be4-94b0-1226421627f7",
+        "7929b704-d923-4322-88bc-e83925ea4867",
+        "a40c6fec-3d59-42d5-9183-2372e50f1eb2",
+        "547ce6ec-8856-4674-a406-78eb541808db"
+      ]
+    }
+  ],
+  "backtest": {
+    "equal_weight_return": -0.0019,
+    "tactical_return": -0.0055,
+    "equal_weight_volatility": 0.0601,
+    "tactical_volatility": 0.0598,
+    "equal_weight_sharpe": -0.061,
+    "tactical_sharpe": -0.229,
+    "equal_weight_max_drawdown": -0.0489,
+    "tactical_max_drawdown": -0.0506,
+    "history": [
+      {
+        "day": 1,
+        "equal_weight": 1.000385,
+        "tactical": 1.000407
+      },
+      {
+        "day": 2,
+        "equal_weight": 1.001352,
+        "tactical": 1.00113
+      },
+      {
+        "day": 3,
+        "equal_weight": 0.998216,
+        "tactical": 0.998113
+      },
+      {
+        "day": 4,
+        "equal_weight": 1.002164,
+        "tactical": 1.00172
+      },
+      {
+        "day": 5,
+        "equal_weight": 1.004322,
+        "tactical": 1.00376
+      },
+      {
+        "day": 6,
+        "equal_weight": 1.002559,
+        "tactical": 1.001918
+      },
+      {
+        "day": 7,
+        "equal_weight": 1.007803,
+        "tactical": 1.006679
+      },
+      {
+        "day": 8,
+        "equal_weight": 1.009504,
+        "tactical": 1.008809
+      },
+      {
+        "day": 9,
+        "equal_weight": 1.012343,
+        "tactical": 1.011288
+      },
+      {
+        "day": 10,
+        "equal_weight": 1.014562,
+        "tactical": 1.013473
+      },
+      {
+        "day": 11,
+        "equal_weight": 1.022057,
+        "tactical": 1.021143
+      },
+      {
+        "day": 12,
+        "equal_weight": 1.024147,
+        "tactical": 1.022935
+      },
+      {
+        "day": 13,
+        "equal_weight": 1.024417,
+        "tactical": 1.023418
+      },
+      {
+        "day": 14,
+        "equal_weight": 1.027672,
+        "tactical": 1.02671
+      },
+      {
+        "day": 15,
+        "equal_weight": 1.030446,
+        "tactical": 1.029287
+      },
+      {
+        "day": 16,
+        "equal_weight": 1.030333,
+        "tactical": 1.029383
+      },
+      {
+        "day": 17,
+        "equal_weight": 1.034932,
+        "tactical": 1.033602
+      },
+      {
+        "day": 18,
+        "equal_weight": 1.033578,
+        "tactical": 1.032692
+      },
+      {
+        "day": 19,
+        "equal_weight": 1.029986,
+        "tactical": 1.029422
+      },
+      {
+        "day": 20,
+        "equal_weight": 1.032027,
+        "tactical": 1.031832
+      },
+      {
+        "day": 21,
+        "equal_weight": 1.033817,
+        "tactical": 1.033127
+      },
+      {
+        "day": 22,
+        "equal_weight": 1.035017,
+        "tactical": 1.035131
+      },
+      {
+        "day": 23,
+        "equal_weight": 1.035367,
+        "tactical": 1.035894
+      },
+      {
+        "day": 24,
+        "equal_weight": 1.040472,
+        "tactical": 1.041023
+      },
+      {
+        "day": 25,
+        "equal_weight": 1.038221,
+        "tactical": 1.03835
+      },
+      {
+        "day": 26,
+        "equal_weight": 1.040331,
+        "tactical": 1.040323
+      },
+      {
+        "day": 27,
+        "equal_weight": 1.038551,
+        "tactical": 1.038525
+      },
+      {
+        "day": 28,
+        "equal_weight": 1.038303,
+        "tactical": 1.038241
+      },
+      {
+        "day": 29,
+        "equal_weight": 1.042017,
+        "tactical": 1.041919
+      },
+      {
+        "day": 30,
+        "equal_weight": 1.034148,
+        "tactical": 1.033965
+      },
+      {
+        "day": 31,
+        "equal_weight": 1.034743,
+        "tactical": 1.034824
+      },
+      {
+        "day": 32,
+        "equal_weight": 1.032475,
+        "tactical": 1.032566
+      },
+      {
+        "day": 33,
+        "equal_weight": 1.03038,
+        "tactical": 1.030715
+      },
+      {
+        "day": 34,
+        "equal_weight": 1.035205,
+        "tactical": 1.035548
+      },
+      {
+        "day": 35,
+        "equal_weight": 1.033272,
+        "tactical": 1.033077
+      },
+      {
+        "day": 36,
+        "equal_weight": 1.033728,
+        "tactical": 1.033898
+      },
+      {
+        "day": 37,
+        "equal_weight": 1.035545,
+        "tactical": 1.036338
+      },
+      {
+        "day": 38,
+        "equal_weight": 1.037221,
+        "tactical": 1.037926
+      },
+      {
+        "day": 39,
+        "equal_weight": 1.034945,
+        "tactical": 1.034896
+      },
+      {
+        "day": 40,
+        "equal_weight": 1.037891,
+        "tactical": 1.037096
+      },
+      {
+        "day": 41,
+        "equal_weight": 1.032823,
+        "tactical": 1.032351
+      },
+      {
+        "day": 42,
+        "equal_weight": 1.029798,
+        "tactical": 1.029091
+      },
+      {
+        "day": 43,
+        "equal_weight": 1.032805,
+        "tactical": 1.032203
+      },
+      {
+        "day": 44,
+        "equal_weight": 1.034606,
+        "tactical": 1.033903
+      },
+      {
+        "day": 45,
+        "equal_weight": 1.030171,
+        "tactical": 1.029797
+      },
+      {
+        "day": 46,
+        "equal_weight": 1.02933,
+        "tactical": 1.029039
+      },
+      {
+        "day": 47,
+        "equal_weight": 1.018237,
+        "tactical": 1.018407
+      },
+      {
+        "day": 48,
+        "equal_weight": 1.018334,
+        "tactical": 1.01829
+      },
+      {
+        "day": 49,
+        "equal_weight": 1.022933,
+        "tactical": 1.023347
+      },
+      {
+        "day": 50,
+        "equal_weight": 1.020911,
+        "tactical": 1.02012
+      },
+      {
+        "day": 51,
+        "equal_weight": 1.01941,
+        "tactical": 1.019329
+      },
+      {
+        "day": 52,
+        "equal_weight": 1.023708,
+        "tactical": 1.022887
+      },
+      {
+        "day": 53,
+        "equal_weight": 1.023514,
+        "tactical": 1.022892
+      },
+      {
+        "day": 54,
+        "equal_weight": 1.015591,
+        "tactical": 1.015351
+      },
+      {
+        "day": 55,
+        "equal_weight": 1.012769,
+        "tactical": 1.012248
+      },
+      {
+        "day": 56,
+        "equal_weight": 1.006635,
+        "tactical": 1.005755
+      },
+      {
+        "day": 57,
+        "equal_weight": 1.007217,
+        "tactical": 1.006081
+      },
+      {
+        "day": 58,
+        "equal_weight": 1.008566,
+        "tactical": 1.008005
+      },
+      {
+        "day": 59,
+        "equal_weight": 1.014511,
+        "tactical": 1.013553
+      },
+      {
+        "day": 60,
+        "equal_weight": 1.015111,
+        "tactical": 1.013618
+      },
+      {
+        "day": 61,
+        "equal_weight": 1.016568,
+        "tactical": 1.01525
+      },
+      {
+        "day": 62,
+        "equal_weight": 1.004771,
+        "tactical": 1.00388
+      },
+      {
+        "day": 63,
+        "equal_weight": 0.99946,
+        "tactical": 0.998391
+      },
+      {
+        "day": 64,
+        "equal_weight": 1.000758,
+        "tactical": 0.999073
+      },
+      {
+        "day": 65,
+        "equal_weight": 0.998062,
+        "tactical": 0.996237
+      },
+      {
+        "day": 66,
+        "equal_weight": 1.005244,
+        "tactical": 1.003318
+      },
+      {
+        "day": 67,
+        "equal_weight": 1.004135,
+        "tactical": 1.00113
+      },
+      {
+        "day": 68,
+        "equal_weight": 1.006781,
+        "tactical": 1.003845
+      },
+      {
+        "day": 69,
+        "equal_weight": 1.01525,
+        "tactical": 1.012097
+      },
+      {
+        "day": 70,
+        "equal_weight": 1.015585,
+        "tactical": 1.012557
+      },
+      {
+        "day": 71,
+        "equal_weight": 1.01385,
+        "tactical": 1.010909
+      },
+      {
+        "day": 72,
+        "equal_weight": 1.006981,
+        "tactical": 1.004451
+      },
+      {
+        "day": 73,
+        "equal_weight": 1.007697,
+        "tactical": 1.005046
+      },
+      {
+        "day": 74,
+        "equal_weight": 1.001077,
+        "tactical": 0.998441
+      },
+      {
+        "day": 75,
+        "equal_weight": 0.998562,
+        "tactical": 0.996243
+      },
+      {
+        "day": 76,
+        "equal_weight": 0.99862,
+        "tactical": 0.996743
+      },
+      {
+        "day": 77,
+        "equal_weight": 0.997692,
+        "tactical": 0.995491
+      },
+      {
+        "day": 78,
+        "equal_weight": 0.994668,
+        "tactical": 0.992899
+      },
+      {
+        "day": 79,
+        "equal_weight": 0.999924,
+        "tactical": 0.998933
+      },
+      {
+        "day": 80,
+        "equal_weight": 0.996922,
+        "tactical": 0.995794
+      },
+      {
+        "day": 81,
+        "equal_weight": 0.998711,
+        "tactical": 0.997264
+      },
+      {
+        "day": 82,
+        "equal_weight": 0.991059,
+        "tactical": 0.98923
+      },
+      {
+        "day": 83,
+        "equal_weight": 0.991718,
+        "tactical": 0.989377
+      },
+      {
+        "day": 84,
+        "equal_weight": 0.991699,
+        "tactical": 0.989396
+      },
+      {
+        "day": 85,
+        "equal_weight": 0.99653,
+        "tactical": 0.994413
+      },
+      {
+        "day": 86,
+        "equal_weight": 0.996181,
+        "tactical": 0.993605
+      },
+      {
+        "day": 87,
+        "equal_weight": 0.997282,
+        "tactical": 0.995249
+      },
+      {
+        "day": 88,
+        "equal_weight": 1.002084,
+        "tactical": 0.999615
+      },
+      {
+        "day": 89,
+        "equal_weight": 1.000562,
+        "tactical": 0.9978
+      },
+      {
+        "day": 90,
+        "equal_weight": 0.998052,
+        "tactical": 0.994479
+      }
+    ]
+  },
+  "price_data_disclosure": "Seeded synthetic daily returns are used for offline reproducibility; replace with licensed cached historical prices for production."
+}

@@ -1,0 +1,14 @@
+seed: 2026
+position_count: 150
+total_notional_usd: 1000000000
+allocation:
+  loan: 0.45
+  bond: 0.25
+  derivative: 0.15
+  equity_fx: 0.15
+column_mapping:
+  position_id: position_id
+  asset_class: asset_class
+  notional_usd: notional_usd
+  sector: sector
+  region: region

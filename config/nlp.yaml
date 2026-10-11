@@ -1,0 +1,16 @@
+sentiment:
+  backend: lexicon
+  finbert_enabled: false
+  batch_size: 16
+impact:
+  recency_half_life_hours: 24
+  event_base_severity:
+    Geopolitical: 8.0
+    Macroeconomic: 7.0
+    Credit Event: 8.0
+    Merger/Acquisition: 6.0
+    Product Launch: 4.0
+    Regulatory: 6.0
+    Earnings: 5.0
+    Cybersecurity/Operational: 7.0
+    Other: 3.0

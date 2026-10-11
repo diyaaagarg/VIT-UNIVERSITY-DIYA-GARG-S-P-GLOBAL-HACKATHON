@@ -1,0 +1,7 @@
+mode: replay
+replay_speed: instant
+database_path: data/risk_engine.db
+processed_path: data/processed/processed.jsonl
+near_duplicate_threshold: 92
+skip_non_english: false
+future_timestamp_tolerance_minutes: 5
